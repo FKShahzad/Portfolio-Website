@@ -1,12 +1,19 @@
 {
-  "name": "portfolio-website",
+  "name": "your-project-name",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "lint:html": "npx htmlhint '**/*.html'",
+    "lint:css": "npx stylelint '**/*.css'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+
+    "htmlhint": "^0.14.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+
+  }
+
 }
